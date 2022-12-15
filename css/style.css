@@ -1,0 +1,267 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #2B2B34;
+    height: 800px;
+    perspective: 400px;
+}
+
+* {
+    font-family: 'Alfa Slab One'
+}
+
+.xxxl {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    left: 70%;
+    top: 30%;
+    border-radius: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2B2B34;
+    animation: daler 2s linear infinite reverse 1s;
+}
+
+.xxl {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2B2B34;
+
+}
+
+.xl {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2B2B34;
+    animation: daler 2s linear infinite reverse 0.5s;
+}
+
+
+.l {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2B2B34;
+}
+
+.m {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2B2B34;
+    animation: daler 2s linear infinite reverse;
+    }
+
+.s {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2B2B34;
+}
+
+.xs {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+
+
+
+@keyframes daler {
+    0% {
+        
+    }
+    100% {
+        background-color: aqua;
+    }
+}
+
+
+
+.glass {
+    width: 300px;
+    height: 600px;
+    position: absolute;
+    top: 20%;
+    left: 920px;
+    transform: rotate(-45deg);
+    z-index: 1;
+    background-color: #2B2B34;
+}
+
+.glass2 {
+    width: 300px;
+    height: 600px;
+    position: absolute;
+    top: 20%;
+    left: 1255px;
+    transform: rotate(45deg);
+    z-index: 1;
+    background-color: #2B2B34;
+}
+ 
+.free {
+    display: flex;
+}
+
+.wifi {
+    display: flex;
+    margin-left: 30px;
+}
+
+.here {
+    display: flex;
+    margin-left: 30px;
+}
+
+.text {
+    display: flex;
+    position: absolute;
+    top: 28%;
+    left: 12%;
+    font-size: 100px;
+    color: #FFF;
+    z-index: 3;
+}
+/*
+
+.free p:nth-child(1) {
+    animation: wifi 2s linear infinite reverse;
+    transition: 0.5s
+}
+.free p:nth-child(2) {
+    animation: wifi 2s linear infinite reverse 0.5s;
+}
+.free p:nth-child(3) {
+    animation: wifi 2s linear infinite reverse 1s;
+}
+.free p:nth-child(4) {
+    animation: wifi 2s linear infinite reverse 1.5s;
+}
+
+.wifi p:nth-child(1) {
+    animation: wifi 2s linear infinite reverse;
+}
+.wifi p:nth-child(2) {
+    animation: wifi 2s linear infinite reverse 0.5s;
+}
+.wifi p:nth-child(3) {
+    animation: wifi 2s linear infinite reverse 1s;
+}
+.wifi p:nth-child(4) {
+    animation: wifi 2s linear infinite reverse 1.5s;
+}
+
+.here p:nth-child(1) {
+    animation: wifi 2s linear infinite reverse;
+}
+.here p:nth-child(2) {
+    animation: wifi 2s linear infinite reverse 0.5s;
+}
+.here p:nth-child(3) {
+    animation: wifi 2s linear infinite reverse 1s;
+}
+.here p:nth-child(4) {
+    animation: wifi 2s linear infinite reverse 1.5s;
+}
+*/
+
+.free {
+    animation: wifi 2s linear infinite reverse;
+}
+
+.wifi {
+    animation: wifi 2s linear infinite reverse 0.5s;
+}
+
+.here {
+    animation: wifi 2s linear infinite reverse 1s;
+}
+
+
+
+
+
+@keyframes wifi{
+    0% {
+        
+    }
+    100% {
+        color: aqua;
+    }
+}
+
+
+
+
+.text-back p:nth-child(1) {
+    animation: wifi 2s linear infinite reverse;
+}
+
+.text-back p:nth-child(2) {
+    animation: wifi 2s linear infinite reverse 0.5s;
+}
+
+.text-back p:nth-child(3) {
+    animation: wifi 2s linear infinite reverse 1s;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
